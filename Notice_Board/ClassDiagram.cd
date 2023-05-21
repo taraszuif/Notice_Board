@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Notice_Board.Model.Administrator">
+    <Position X="0.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAgAEAAACAAAAAEAEAAAAAAAAIAAIACAAAQIAAAAAg=</HashCode>
+      <FileName>Model\Administartor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Notice_Board.Model.Country">
+    <Position X="10" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAQAAAAAEgAAAAAQAAAAAAIAAAAAAAAQAAAA=</HashCode>
+      <FileName>Model\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Notice_Board.Model.Category">
+    <Position X="6.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAiAAAAAAAAAAAEgAAAAAQAAAAAAIgAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Notice_Board.Model.Notice">
+    <Position X="8.25" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QIAiAAgABYAgAEAEgAAAAAAAAAIAAIAAEAAICAAACAA=</HashCode>
+      <FileName>Model\Notice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Notice_Board.Model.User">
+    <Position X="4.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIUgAEAAACAAAAAEAEEAAAAAAAIAAIgCAAAQIAAAAAk=</HashCode>
+      <FileName>Model\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Person">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAgAEAAACAAAAAEAEAAAAAAAAIAAIACAAAQIAAAAAg=</HashCode>
+      <FileName>Model\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Notice_Board.Repository.CategoryRepository" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQEgIAAAAAAQAAAAAAAAAAgBAEAAEAABgBAAABAAAA=</HashCode>
+      <FileName>Repository\CategoryRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Notice_Board.Repository.UserRepository" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEgIAAAAAAAIgBAAAAAAAgBBEQAEAAAgBAAAEAAAA=</HashCode>
+      <FileName>Repository\UserRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Notice_Board.Repository.NoticeRepository" BaseTypeListCollapsed="true">
+    <Position X="16" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQEgIAAgAAAABAAAAAAAAEiBAEIAEAEAgBAgABAAAA=</HashCode>
+      <FileName>Repository\NoticeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Notice_Board.Repository.CountryRepository" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQEgIAAAAAAABQAAAAAAAAgBBEAAEAEAgAAAABAAAA=</HashCode>
+      <FileName>Repository\CountryRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Notice_Board.Repository.ICrudRepository&lt;T&gt;">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgIAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\ICrudRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Notice_Board.Repository.UserDeletedEventHandler">
+    <Position X="10.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\UserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
